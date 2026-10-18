@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "zhihu-backup"
+version = "0.1.0"
+description = "Backup Zhihu answers, articles and pins to Markdown with local images."
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "selenium>=4.10",
+    "requests>=2.31",
+    "beautifulsoup4>=4.12",
+    "lxml>=4.9",
+    "markdownify>=0.12",
+    "tqdm>=4.66",
+    "pypdf>=4.0",
+    "markdown>=3.5",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8.0"]
+
+[project.scripts]
+zhihu-backup = "zhihu_backup.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["zhihu_backup*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
