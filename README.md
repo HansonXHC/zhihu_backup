@@ -417,9 +417,9 @@ Parts of this project were developed with reference to, or adapted from, the fol
 
 | Project | License | Use |
 |---|---|---|
-| `zhihu_spider_selenium-master` | GPL-3.0 | Base: Selenium login, cookies, DOM fallback, PDF printing |
+| [zhihu_spider_selenium-master](https://github.com/ZouJiu1/zhihu_spider_selenium) | GPL-3.0 | Base: Selenium login, cookies, DOM fallback, PDF printing |
 | [zhihu-download-main](https://github.com/chenluda/zhihu-download) | No license file in the upstream snapshot | HTML → Markdown pipeline |
-| `ZhihuSpider-master` | No license file in the upstream snapshot | Zhihu v4 API endpoints and enumeration approach |
+| [ZhihuSpider-master](https://github.com/Foxgeek36/ZhihuSpider) | No license file in the upstream snapshot | Zhihu v4 API endpoints and enumeration approach |
 | [cat-catch](https://github.com/xifangczy/cat-catch) | GPL-3.0 | Video detection, quality ordering and Range/resume design reference |
 
 - `zhihu_spider_selenium-master` and `cat-catch` are released under GPL-3.0. Because this project contains code derived from the former, the project as a whole is released under **GPL-3.0**; see [LICENSE](LICENSE) for the full terms.

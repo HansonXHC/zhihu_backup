@@ -417,9 +417,9 @@ python -m zhihu_backup user xxx --no-images
 
 | 项目 | 许可证 | 用途 |
 |---|---|---|
-| `zhihu_spider_selenium-master` | GPL-3.0 | 基础：Selenium 登录、Cookie、DOM 兜底、PDF 打印 |
+| [zhihu_spider_selenium-master](https://github.com/ZouJiu1/zhihu_spider_selenium) | GPL-3.0 | 基础：Selenium 登录、Cookie、DOM 兜底、PDF 打印 |
 | [zhihu-download-main](https://github.com/chenluda/zhihu-download) | 上游快照未附许可证文件 | HTML → Markdown 管线 |
-| `ZhihuSpider-master` | 上游快照未附许可证文件 | 知乎 v4 API 端点与内容枚举思路 |
+| [ZhihuSpider-master](https://github.com/Foxgeek36/ZhihuSpider) | 上游快照未附许可证文件 | 知乎 v4 API 端点与内容枚举思路 |
 | [cat-catch](https://github.com/xifangczy/cat-catch) | GPL-3.0 | 视频识别、清晰度排序、Range/断点续传设计参考 |
 
 - `zhihu_spider_selenium-master` 与 `cat-catch` 以 GPL-3.0 发布。本项目包含基于前者的实现，因此整体同样以 **GPL-3.0** 发布，完整条款见 [LICENSE](LICENSE)。
