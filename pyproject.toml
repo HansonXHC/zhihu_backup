@@ -4,10 +4,15 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "zhihu-backup"
-version = "0.1.0"
+version = "1.0.0"
 description = "Backup Zhihu answers, articles and pins to Markdown with local images."
 readme = "README.md"
+license = {text = "GPL-3.0-only"}
 requires-python = ">=3.9"
+classifiers = [
+    "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
+    "Programming Language :: Python :: 3",
+]
 dependencies = [
     "selenium>=4.10",
     "requests>=2.31",
